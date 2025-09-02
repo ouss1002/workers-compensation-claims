@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "valid_size": 0.2,
+  "include_iicc": true,
+  "include_text": true,
+  "n_calls": 30,
+  "n_initial_points": 10,
+  "n_best_models": 4,
+  "best_score": 22732.767361550657,
+  "best_params": {
+    "max_depth": 4,
+    "learning_rate": 0.1529638068018135,
+    "n_estimators": 503,
+    "subsample": 0.8436401141630159,
+    "colsample_bytree": 0.7629446361427012,
+    "min_child_weight": 1e-08,
+    "reg_alpha": 2.5725735617941172,
+    "reg_lambda": 10.727608169367786,
+    "gamma": 0.0
+  },
+  "ridge_coef": [
+    0.3373011491784013,
+    0.34523277835856153,
+    0.1405123548832718,
+    0.4046866475079131
+  ],
+  "ridge_intercept": 849.0712505033971,
+  "features_used_count": 153,
+  "run_suffix": "xgb_gp_stack_IICC_TEXT_all-mpnet-base-v2"
+}
